@@ -1,5 +1,5 @@
 - name: Install Apache and Deploy Website
-  hosts: webserver
+  hosts: agents
   become: yes
 
   tasks:
